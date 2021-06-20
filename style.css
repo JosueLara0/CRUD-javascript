@@ -1,0 +1,111 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eeeeee;
+    }
+
+    table {
+        margin: 1rem;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+        background-color: #222831;
+    }
+
+    thead {
+        color: #ffd369;
+        border-bottom: solid 0.3rem #ffd369;
+    }
+
+    tr, td, th {
+        padding: 1rem;
+    }
+
+    td {
+        color: #eeeeee;
+    }
+
+    tr:nth-child(even) {
+        background-color: #393e46;
+    }
+
+    tr:hover td{
+        color: #ffd369;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .inputsContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #393e46;
+        padding: 1rem;
+    }
+
+    .outputsContainer {
+       align-items: center;
+       display: flex;
+       justify-content: center;
+    }
+
+    .submitBtn {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    #submitBtn {
+        background-color: #393e46;
+        color: #eeeeee;
+        width: 20%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.3rem;
+    }
+
+    #submitBtn:hover {
+        color: #ffd369;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #393e46;
+    }
+
+    .input {
+        background-color: #393e46;
+        color: #eeeeee;
+        font-size: 1.2rem;
+    }
+
+    .update {
+        color: #eeeeee;
+        background-color: darkslategray;
+        padding: 0.2rem 0.8rem;
+        border-radius: 0.4rem;
+    }
+
+    .delete {
+        color: #eeeeee;
+        background-color: darkred;
+        padding: 0.2rem 0.8rem;
+        border-radius: 0.4rem;
+    }
+
+    .update:hover {
+        color: #ffd369;
+    }
+
+    .delete:hover {
+        color: #ffd369;
+    }

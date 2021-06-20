@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD / CARS</h1>
+
+        <!--Inputs form-->
+        <form id="carsForm" onsubmit="return false">
+            <div class="inputsContainer">
+                <div class="input">
+                    <label for="name">Name: </label>
+                    <input type="text" placeholder="Car name" id="name"/>
+                </div>
+
+                <div class="input">
+                    <label for="model">Model: </label>
+                    <input type="text" placeholder="Car model" id="model"/>
+                </div>
+
+                <div class="input">
+                    <label for="doors">Doors: </label>
+                    <input type="text" placeholder="Number of doors" id="doors"/>
+                </div>
+
+                <div class="input">
+                    <label for="colour">Colour: </label>
+                    <input type="text" placeholder="Car colour" id="colour"/>
+                </div>
+
+                <div class="input">
+                    <label for="brand">Brand: </label>
+                    <input type="text" placeholder="Car brand" id="brand"/>
+                </div>
+            </div>
+        </form>
+
+        <!--Submit Button-->
+        <div class="submitBtn">
+            <button type="submit" id="submitBtn">
+                SUBMIT
+            </button>
+        </div>
+
+        <!--Outputs Table -->
+        <div class="outputsContainer">
+            <table class="table" id="table">
+                <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>MODEL</th>
+                    <th>DOORS</th>
+                    <th>COLOUR</th>
+                    <th>BRAND</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+                </thead>
+                <tbody id="carsList"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
